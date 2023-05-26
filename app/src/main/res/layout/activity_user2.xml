@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="410dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="Please choose your waist circumference"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup_circum"
+            android:layout_width="410dp"
+            android:layout_height="146dp"
+            android:layout_marginTop="9dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FF1100"
+            android:layout_gravity="center"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#B53030"
+            android:backgroundTint="#B53030"
+            android:foregroundTint="#CF2121" />
+
+        <TextView
+            android:id="@+id/tv_titel1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="YOUR LEVEL OF PHYSICAL ACTIVITY AND WHAT YOU EAT CAN AFFECT YOUR RISK OF DEVELOPING DIABETES."
+            android:textColor="#FF1100"
+            android:textSize="20sp" />
+
+
+
+        <TextView
+            android:id="@+id/tv_q5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Do you usually do some physical activity such as brisk walking for at least 30 minutes each day?"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup_q5"
+            android:layout_width="410dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="1dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton_q5y"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioButton_q5n"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:text="No" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="350dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="#4C4949" />
+        <TextView
+            android:id="@+id/tv_q6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="How often do you eat vegetables or fruits?"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup_q6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton_q6y"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:text="Every day" />
+
+            <RadioButton
+                android:id="@+id/radioButton_q6n"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:text="Not every day" />
+
+        </RadioGroup>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FF1100"
+            android:layout_gravity="center"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/tv_title2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="HIGH BLOOD PRESSURE, HIGH BLOOD SUGAR, AND PREGNANCY-RELATED FACTORS ARE ASSOCIATED WITH DIABETES."
+            android:textColor="#FF1100"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_q7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Have you ever been told by a doctor or nurse that you have high blood pressure OR have you ever taken high blood pressure pills?"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup_q7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton_q7y"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioButton_q7n"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:text="No or I don't know" />
+
+        </RadioGroup>
+        <View
+            android:layout_width="350dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="#4C4949" />
+
+        <TextView
+            android:id="@+id/tv_q8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Have you ever been found to have a high blood sugar either from a blood test, during an illness, or during pregnancy?"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup_q8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton_q8y"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioButton_q8n"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:text="No or I don't know" />
+
+        </RadioGroup>
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="350dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="#4C4949" />
+        <TextView
+            android:id="@+id/tv_q9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Have you ever given birth to a large baby weighing 9 pounds (4.1 kg) or more?"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup_q9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton_q9y"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioButtonq9n"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:text="No, don’t know, or not applicable" />
+
+        </RadioGroup>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="#FF1100" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/tv_title3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="SOME TYPES OF DIABETES RUN IN FAMILIES."
+            android:textColor="#FF1100"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_q10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Have any of your blood relatives ever been diagnosed with diabetes?"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Check ALL that apply"
+            android:textColor="#FF1100" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="197dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radioButton_q10mother"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Mother" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_q10father"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Father" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_q10siblings"
+                    android:layout_width="199dp"
+                    android:layout_height="wrap_content"
+                    android:text="Brothers/Sisters" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <RadioButton
+                    android:id="@+id/radioButton_q10children"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Children" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_q10other"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Other" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_q10none"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No/Don't know" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="350dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="#4C4949" />
+        <TextView
+            android:id="@+id/tv_q11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Please check off which of the following ethnic groups your biological (blood) parents belong to:"
+            android:textSize="20sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_q11m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mother"
+                    android:textColor="#FF1100" />
+                <RadioGroup
+                    android:id="@+id/radioGroup_q11m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                <RadioButton
+                    android:id="@+id/radioButton_q11a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:gravity="center"/>
+                <RadioButton
+                    android:id="@+id/radioButton_q11b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:gravity="center"/>
+                <RadioButton
+                    android:id="@+id/radioButton_q11c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:gravity="center"/>
+                <RadioButton
+                    android:id="@+id/radioButton_q11d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:gravity="center"/>
+                <RadioButton
+                    android:id="@+id/radioButton_q11e"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:gravity="center"/>
+                <RadioButton
+                    android:id="@+id/radioButton_q11f"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:gravity="center"/>
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tv_q11f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Father"
+                    android:textColor="#FF1100" />
+                <RadioGroup
+                    android:id="@+id/radioGroup_q11f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical">
+                <RadioButton
+                    android:id="@+id/radioButton_q11g"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="White (Caucasian)"
+                    />
+                <RadioButton
+                    android:id="@+id/radioButton_q11h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aboriginal"
+                    />
+                <RadioButton
+                    android:id="@+id/radioButton_q11i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Black (Afro-Caribbean)"
+                    />
+                <RadioButton
+                    android:id="@+id/radioButton_q11j"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="East Asian (Chinese, Vietnamese, Filipino, Korean, etc.)"
+                    />
+                <RadioButton
+                    android:id="@+id/radioButton_q11k"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="South Asian (East Indian, Pakistani, Sri Lankan, etc.)"
+                    />
+                <RadioButton
+                    android:id="@+id/radioButton_q11l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Other non-white (Latin American, Arab, West Asian)"
+                    />
+                </RadioGroup>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FF1100"
+            android:layout_gravity="center"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/tv_title4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="OTHER FACTORS ARE ALSO RELATED TO DEVELOPING DIABETES."
+            android:textColor="#FF1100"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_q12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="What is the highest level of education that you have completed?"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup_q12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dp"
+            android:baselineAligned="false"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioButton_q12a"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:text="Some high school or less" />
+
+            <RadioButton
+                android:id="@+id/radioButton_q12b"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:text="High school diploma" />
+            <RadioButton
+                android:id="@+id/radioButton_q12c"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:text="Some college or university" />
+            <RadioButton
+                android:id="@+id/radioButton_q12d"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:text="College or university diploma" />
+
+        </RadioGroup>
+        <View
+            android:layout_width="350dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="#4C4949" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Submit" />
+
+    </LinearLayout>
+</ScrollView>
